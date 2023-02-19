@@ -2,6 +2,8 @@
 /*
  * main - Writer's Broker
  *
+ * Description:'Data Collection'
+ *
  * Return: Always 0
  */
 int main(void)
