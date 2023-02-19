@@ -5,22 +5,10 @@
  */
 int main(void)
 {
-	int x = 4;
+	char name [20];
 
-	printf("What is your answer?\n");
-	scanf("%d", &x);
-
-	if (x == 4)
-	{
-		printf("Correct!\n");
-	}
-	else if (x < 4)
-	{
-		printf("Wrong answer, try again\n");
-	}
-	else if (x > 10)
-	{
-		printf("That's a little off, check your logic\n");
-	}
+	printf("What's your name?\n");
+	fgets(name, 20, stdin);
+	printf("Your name is %s\n", name);
 	return (0);
 }
