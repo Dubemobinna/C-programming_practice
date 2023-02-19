@@ -1,18 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
 /*
- * main - Writer's Broker
- *
- * Description:'Data Collection'
- *
+ * main - If statement
  * Return: Always 0
  */
 int main(void)
 {
-	char grade;
+	int x = 4;
 
-	printf("What is your grade?\n");
-	scanf("%c", &grade);
-	printf("Your grade is %c\n", grade);
+	printf("What is your answer?\n");
+	scanf("%d", &x);
+
+	if (x == 4)
+	{
+		printf("Correct!\n");
+	}
+	else if (x < 4)
+	{
+		printf("Wrong answer, try again\n");
+	}
+	else if (x > 10)
+	{
+		printf("That's a little off, check your logic\n");
+	}
 	return (0);
 }
