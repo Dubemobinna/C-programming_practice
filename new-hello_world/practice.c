@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /*
  * main - Writer's Broker
  *
@@ -8,11 +9,10 @@
  */
 int main(void)
 {
-	int age;
+	double gpa;
 
-	printf("What is your age?\n");
-	scanf("%d", &age);
-	printf("You are welcome to Writer's Broker\n");
-	printf("You are %d years old\n", age);
+	printf("What is your gpa?\n");
+	scanf("%lf", &gpa);
+	printf("Your gpa is %f\n", gpa);
 	return (0);
 }
