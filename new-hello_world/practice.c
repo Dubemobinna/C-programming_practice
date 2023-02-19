@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	double gpa;
+	char grade;
 
-	printf("What is your gpa?\n");
-	scanf("%lf", &gpa);
-	printf("Your gpa is %f\n", gpa);
+	printf("What is your grade?\n");
+	scanf("%c", &grade);
+	printf("Your grade is %c\n", grade);
 	return (0);
 }
