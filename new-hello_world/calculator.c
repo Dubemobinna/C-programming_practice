@@ -6,17 +6,17 @@
 
 int main(void)
 {
-	int num1;
-	int num2;
-	int num3;
+	double num1;
+	double num2;
+	double num3;
 
 	printf("Enter your first number\n");
-	scanf("%d", &num1);
+	scanf("%lf", &num1);
 	printf("Enter your second number\n");
-	scanf("%d", &num2);
+	scanf("%lf", &num2);
 	printf("Enter your third number\n");
-	scanf("%d", &num3);
-	printf("%d\n", num1 * num2 + num3);
+	scanf("%lf", &num3);
+	printf("%f\n", num1 * num2 + num3);
 
 	return (0);
 }
