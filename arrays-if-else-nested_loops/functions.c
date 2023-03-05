@@ -4,14 +4,16 @@
  * Return: Always 0
  */
 
-void SayHi()
+void SayHi(char name[])
 {
-	printf("Hello User\n");
+	printf("Hello %s\n", name);
 }
 
 int main()
 {
 	printf("This is my territory\n");
-	SayHi();
+	SayHi("Mike");
+	SayHi("John");
+	SayHi("Attah");
 	return (0);
 }
