@@ -6,14 +6,14 @@
  * Return: Returns a value
  */
 
-double cube(double num)
+int add(int num)
 {
-	double result = num * num * num;
+	int result = num + num + num;
 	return result;
 }
 
 int main(void)
 {
-	printf("%f\n", cube(3.0));
+	printf("%d\n", add(3));
 	return (0);
 }
